@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Glory');
+:root{
+  --darkgreen: #78c858;
+  --lightgreen: #a8e693;
+}
+
+body {
+    font-family: "Glory";
+    font-size: 14px;
+    margin: 0;
+    overflow: scroll;
+}
+.nav {
+  background-color: var(--darkgreen);
+  overflow: hidden;
+  width: 100%;
+  font-size: 25px;
+}
+.page{
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  transition: 0.5s
+}
+.active{
+  background-color: var(--lightgreen);
+    color: #757575;
+
+}
+a{
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: var(--lightgreen);
+  color: #757575;
+ 
+}
+#logo{
+  float: left;
+  width: 50px;
+  padding: 5px;
+}
+#homelogo{
+  width: 150px;
+  position: absolute;
+  padding-top: 55px;
+  padding-left: 450px;
+  float: right;
+}
+h1{
+    padding-top:50px; 
+    text-align: center;
+    font-size: 100px;
+}
+h2{
+  padding-top: 25px; 
+  text-align: center;
+  font-size: 75px;
+}
+h3{
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  padding: 10px 50px;
+  text-align: center;
+  font-size: 25px;
+}
+.name{
+  color: black;
+  background-color: var(--lightgreen);
+  font-size: 30px;
+  padding: 20px;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+.inspo{
+  color: black;
+  background-color: var(--lightgreen);
+  padding: 20px;
+  margin-right: 15%;
+  margin-left: 15%;
+  font-weight: normal;
+}
+
+//About us icons
+.icons {
+ border-top: 0.5px solid var(--lightgreen);
+ height: 50px;
+ width: 100%;
+ align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 10px 250px;
+  width: 70%;
+  }
+
+.flex {
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+
+.flex:hover {
+ opacity: 0.4;
+}
+
+.flex .fa {
+  font-size: 50px;
+  color: var(--darkgreen);
+}
+
+/* IMAGES */
+#homeimg{
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
+  display: block;
+}
